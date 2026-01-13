@@ -6,3 +6,47 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/* Shared styles */
+.display-flex{
+  display: flex;
+}
+
+/* Primary Color */
+.bg-primary{
+  background-color: rgba(255, 144, 14, 0.1);
+}
+/* Dark 01 */
+.dark-black{
+  color: #131313;
+}
+/* Dark 02 */
+.dark-gray{
+  color: #424242;
+}
+/* Dark 03 */
+.light-gray{
+  color: #727272;
+}
+
+/* Navbar styles */
+.navbar{
+  justify-content: space-between;
+}
+.navbar, .banner{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.nav-item{
+  list-style: none;
+  margin-right: 30px;
+}
+
+.nav-link{
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+/* Header styles */
